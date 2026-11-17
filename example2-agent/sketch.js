@@ -296,22 +296,26 @@ function getAgentMotion(w, t) {
 }
 
 function drawLegend() {
-  // Keep the author's mappings visible; they are design choices, not model facts.
   push();
-  textSize(16);
+  textSize(15);
   noStroke();
   fill(55);
+
   text(
-    "Authored mappings: happy / yellow circle; sad / blue square; calm / green triangle;",
+    "Happy: Yellow / Circle  |  Sad: Blue / Square  |  Calm: Green / Triangle",
     28,
-    690,
+    685,
   );
-  text("anxious / orange pentagon; angry / red spiky shape.", 28, 716);
-  if (LABELS.includes("disgust"))
+
+  text("Anxious: Orange / Pentagon  |  Angry: Red / Star", 28, 710);
+
+  if (LABELS.includes("disgust")) {
     text(
-      "Disgust: see your added colour, outline and motion mapping.",
+      "Disgust: Purple / Hexagon  |  Uneven sway, rotation and subtle bounce",
       28,
-      743,
+      735,
     );
+  }
+
   pop();
 }
