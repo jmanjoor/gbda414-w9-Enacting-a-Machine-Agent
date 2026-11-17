@@ -26,30 +26,30 @@ const EMOTIONS = {
 
 const MOTION_PROFILES = {
   happy: {
-    sway: { amount: 32, pace: 2.8 },
-    bounce: { amount: 18, pace: 3.2, phase: Math.PI / 2 },
-    size: { amount: 0.09, pace: 2.8 },
+    sway: { amount: 38, pace: 3.2 },
+    bounce: { amount: 24, pace: 3.6, phase: Math.PI / 2 },
+    size: { amount: 0.12, pace: 3.2 },
   },
   sad: {
-    sway: { amount: 5, pace: 0.45 },
-    bounce: { amount: 16, pace: 0.45, phase: Math.PI },
-    size: { amount: 0.05, pace: 0.45 },
+    sway: { amount: 4, pace: 0.35 },
+    bounce: { amount: 7, pace: 0.4, phase: Math.PI },
+    size: { amount: 0.025, pace: 0.4 },
   },
   calm: {
-    sway: { amount: 15, pace: 0.65 },
-    bounce: { amount: 8, pace: 0.8 },
-    size: { amount: 0.025, pace: 0.65 },
+    sway: { amount: 12, pace: 0.55 },
+    bounce: { amount: 5, pace: 0.65 },
+    size: { amount: 0.02, pace: 0.55 },
   },
   anxious: {
-    sway: { amount: 15, pace: 9 },
-    bounce: { amount: 7, pace: 7.5 },
-    rotation: { amount: 0.1, pace: 8 },
-    size: { amount: 0.055, pace: 9 },
+    sway: { amount: 19, pace: 11 },
+    bounce: { amount: 10, pace: 9 },
+    rotation: { amount: 0.14, pace: 10 },
+    size: { amount: 0.07, pace: 11 },
   },
   angry: {
-    sway: { amount: 8, pace: 3.5 },
-    rotation: { amount: 0.2, pace: 3.8 },
-    size: { amount: 0.065, pace: 3.5 },
+    sway: { amount: 11, pace: 4.5 },
+    rotation: { amount: 0.28, pace: 5 },
+    size: { amount: 0.1, pace: 4.5 },
   },
 
   disgust: {
